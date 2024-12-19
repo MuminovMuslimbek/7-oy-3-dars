@@ -48,6 +48,8 @@ function ThirdHomework() {
     setChosen(convertedDate.toLocaleTimeString());
   }
 
+  // Agar ko'p davlatlarni chiqarmay turgan bo`lsa Europe,London ni tanlasez chiqaradi!!
+  
   return (
     <div className="h-[90.3vh] select-none w-full flex items-center justify-center" style={{ backgroundImage: `url(${Bg})`, backgroundSize: 'cover', backgroundPosition: 'center', }} >
       <div className="bg-gray-700 max-w-[400px] w-full rounded-md flex flex-col items-center py-7 px-4 gap-6 shadow-lg">
